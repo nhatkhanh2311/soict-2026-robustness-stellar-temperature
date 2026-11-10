@@ -1,0 +1,3 @@
+model,seed,n_params,epochs,early_stop,best_epoch,val_RMSE_K,test_RMSE_K,test_MAE_K,test_Bias_K,test_R2,min_per_ep
+Conv-Pool,1,537857,70,True,55,82.92,80.54,56.34,-6.99,0.993,0.69
+Conv-Attn,1,540161,77,True,62,84.76,81.71,57.52,-8.15,0.9928,1.21

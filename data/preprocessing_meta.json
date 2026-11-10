@@ -1,0 +1,26 @@
+{
+  "n_samples": 188972,
+  "n_train": 151176,
+  "n_val": 18898,
+  "n_test": 18898,
+  "teff_min": 3500.0159,
+  "teff_max": 8998.932,
+  "teff_range": 5498.9161,
+  "scaler_fitted_on": "train",
+  "grid": {
+    "wave_start": 3600.0,
+    "wave_end": 10300.0,
+    "seq_length": 4096,
+    "type": "log10",
+    "dlog10": 0.00011148589107152258,
+    "km_s_per_pixel": 76.95844803318867
+  },
+  "normalization": "masked_median",
+  "min_valid_frac": 0.8,
+  "split": {
+    "scheme": "80/10/10",
+    "stratified_on": "teff_quantile_20",
+    "random_state": 42,
+    "stored_as": "column 'dataset_split' of sdss_final_catalog.csv"
+  }
+}

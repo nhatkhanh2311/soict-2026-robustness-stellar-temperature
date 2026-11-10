@@ -1,0 +1,20 @@
+{
+  "bin_size_K": 100,
+  "bin_range_K": [
+    3500.0,
+    9000.0
+  ],
+  "n_bins": 55,
+  "sigma_bins": 2.0,
+  "sigma_K": 200.0,
+  "alpha": 0.5,
+  "density_floor": 1.0,
+  "n_bins_floored": 0,
+  "normalisation": "per-sample mean = 1.0 over the training partition",
+  "fitted_on": "train",
+  "val_test_weight": 1.0,
+  "weight_min": 0.6348833335423569,
+  "weight_max": 7.660736425934884,
+  "weight_median": 0.929957389200003,
+  "dynamic_range": 12.066368766040052
+}

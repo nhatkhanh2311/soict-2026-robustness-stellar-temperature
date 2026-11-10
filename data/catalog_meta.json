@@ -1,0 +1,41 @@
+{
+  "n_raw": 1365542,
+  "n_catalog": 188979,
+  "label_noise_floor_K": 47.8982,
+  "label_noise_floor_definition": "RMS of e_teff over the filtered catalogue",
+  "filters": {
+    "pipeline_contains": "boss_net",
+    "snr_min_exclusive": 25,
+    "logg_range": [
+      3.5,
+      5.5
+    ],
+    "teff_range_K": [
+      3500,
+      9000
+    ],
+    "e_teff_max_K": 100
+  },
+  "waterfall": [
+    {
+      "stage": "Raw Astra query (zwarning_flags=0 applied in SQL)",
+      "surviving": 1365542
+    },
+    {
+      "stage": "Pipeline contains 'boss_net'",
+      "surviving": 359685
+    },
+    {
+      "stage": "SNR > 25",
+      "surviving": 259245
+    },
+    {
+      "stage": "3.5 <= log g <= 5.5",
+      "surviving": 221520
+    },
+    {
+      "stage": "3500 <= Teff <= 9000 K",
+      "surviving": 207577
+    }
+  ]
+}

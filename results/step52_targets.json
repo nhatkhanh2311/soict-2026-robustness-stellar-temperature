@@ -1,0 +1,34 @@
+{
+  "targeted": {
+    "pixel": 1171,
+    "lambda_A": 4862.4,
+    "dRMSE_K": 60.732,
+    "located_by": "fine scan, W = 10, stride 4"
+  },
+  "argmin": {
+    "pixel": 2025,
+    "lambda_A": 6054.3,
+    "dRMSE_K": -0.03
+  },
+  "halpha": {
+    "pixel": 2339,
+    "lambda_A": 6562.8,
+    "dRMSE_K": 30.031,
+    "rank": 2,
+    "of": 82
+  },
+  "argmax_Conv-Pool": {
+    "pixel": 1175,
+    "lambda_A": 4867.4,
+    "dRMSE_K": 84.939
+  },
+  "argmax_Conv-Attn": {
+    "pixel": 1175,
+    "lambda_A": 4867.4,
+    "dRMSE_K": 36.525
+  },
+  "mgb": {
+    "pixel": 1414,
+    "lambda_A": 5175.0
+  }
+}

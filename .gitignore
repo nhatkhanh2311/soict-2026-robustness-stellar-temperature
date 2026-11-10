@@ -1,0 +1,5 @@
+data/fits_files/
+data/*.h5
+data/sdss_all_star.csv
+
+.idea
